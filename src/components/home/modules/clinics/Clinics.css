@@ -1,0 +1,62 @@
+.clinics-page-main-div {
+  width: 100vw;
+  height: 92.55vh;
+  background: #f3f4f5;
+  overflow-x: hidden;
+}
+
+.clinics-page-main-div .locate-btn {
+  width: 133px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #3cc9d2;
+  background: #ffffff;
+  border: 1px solid #3cc9d2;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clinics-page-main-div .consult-btn {
+  background: #e0f2ff;
+  border: 1px solid #009df7;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2ca3fa;
+}
+.clinics-page-main-div .address {
+  font-weight: 400;
+  width: 333px;
+  font-size: 14px;
+  line-height: 19px;
+  color: #7d7d7d;
+}
+.clinics-page-main-div .clinic-name {
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0 0 4px 0;
+  text-decoration-line: underline;
+  color: #2ca3fa;
+  cursor: pointer;
+}
+.clinics-page-main-div .clinic-id {
+  font-weight: 600;
+  font-size: 14px;
+  color: #7d7d7d;
+}
+.clinics-page-main-div .clinics-data-row {
+  background: #fbfbfb;
+  border-radius: 5px;
+  margin: 0 0 5px 0;
+  display: flex;
+  align-items: center;
+  padding: 20px 0 20px 23px;
+}
+@media screen and (max-width: 768px) {
+  .clinics-page-main-div .clinic-headings-row {
+    display: none;
+  }
+}

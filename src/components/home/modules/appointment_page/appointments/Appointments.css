@@ -1,0 +1,51 @@
+.clinic-details-modal .ant-modal-body {
+  padding: 33px;
+}
+.clinic-details-modal .clinic-logo {
+  height: 93px;
+  width: 275px;
+}
+.clinic-details-modal .clinic-details-input {
+  width: 321px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
+}
+.clinic-details-modal .close-clinic-details-btn {
+  width: 80px;
+  height: 32px;
+  background: #ffffff;
+  border: 1px solid #d35850;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #d35850;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clinic-details-modal .ant-modal-content {
+  border-radius: 5px;
+}
+.cancel-appointment-modal .ant-modal-body {
+  padding: 27px 33px;
+}
+.cancel-appointment-modal .no-btn {
+  background: #ffffff;
+  border: 1px solid #29c3c1;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #29c3c1;
+}
+.cancel-appointment-modal .yes-btn {
+  background: #ffffff;
+  border: 1px solid #f89986;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #f89986;
+}

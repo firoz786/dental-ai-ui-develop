@@ -1,0 +1,318 @@
+.patient-signup-main-div {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.patient-signup-title {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 53.0142px;
+  line-height: 62px;
+  color: #2ca3fa;
+}
+.patient-signup-subtitle {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 27.0142px;
+  line-height: 32px;
+  color: #505050;
+}
+.patient-signup-input-title {
+  height: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #959595;
+}
+.patient-signup-input-row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.patient-signup-input {
+  background: #ffffff;
+  border: 1px solid #959595;
+  border-radius: 3px;
+  width: 21vw;
+  height: 4.1vh;
+}
+.patient-signup-bloodgrp-select {
+  width: 21vw !important;
+  border: 1px solid #959595;
+  background: #ffffff;
+  border-radius: 3px;
+}
+.patient-signup-main-div .ant-input-group-addon {
+  height: 4.1vh;
+  border: 0px;
+  border-right: 1px solid #959595;
+}
+.patient-signup-phone .ant-input {
+  height: 4.1vh !important;
+}
+.patient-signup-phone .ant-input-wrapper {
+  background: #ffffff;
+  border-radius: 3px;
+  border: 1px solid #959595;
+  width: 21vw;
+}
+.patient-sigup-input-bgcolor-row {
+  height: 15.3vh;
+  width: 25vw;
+  background: #f7f7f7;
+  border-radius: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.patient-signup-register-btn-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.patient-signup-register-btn {
+  position: absolute;
+  width: 150px;
+  height: 44px;
+  color: #ffffff;
+  background: #2ca3fa;
+  border-radius: 30px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+}
+.patient-signup-copyright-row {
+  height: 70px;
+  margin: 30px 0 0 40px;
+}
+.patient-signup-copyright {
+  height: 100%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #959595;
+  border-bottom: 7px solid #2ca3fa;
+  display: flex;
+  align-items: center;
+}
+.patient-signup-bg-img-row {
+  display: flex;
+  justify-content: flex-end;
+  height: 120vh;
+}
+.patient-signup-main-div .ant-form-item {
+  margin: 0;
+}
+.patient-signup-main-div .ant-form-item-explain-error {
+  width: 21vw;
+  word-wrap: break-word;
+}
+.patient-signup-main-div .ant-input-group-addon {
+  width: 30%;
+  padding: 0;
+}
+.patient-signup-main-div .password-row {
+  width: 25vw;
+  min-height: 26.88vh;
+  background: #f1faff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.patient-signup-main-div .input-rows-main-col {
+  display: flex;
+  flex-direction: column;
+  gap: 4.2vh;
+  align-items: center;
+}
+@media screen and (max-width: 1750px) {
+  .patient-signup-input-title {
+    font-size: 13px;
+  }
+  .patient-signup-title {
+    font-size: 50.0142px;
+  }
+  .patient-signup-subtitle {
+    font-size: 26.0142px;
+  }
+  .patient-signup-bg-img-row {
+    display: flex;
+    justify-content: flex-end;
+    height: 120vh;
+  }
+}
+@media screen and (max-width: 1550px) {
+  .patient-signup-input-title {
+    font-size: 11px;
+  }
+  .patient-signup-title {
+    font-size: 45.0142px;
+  }
+  .patient-signup-subtitle {
+    font-size: 24.0142px;
+  }
+  .patient-signup-bg-img-row {
+    display: flex;
+    justify-content: flex-end;
+    height: 120vh;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .patient-signup-input-title {
+    font-size: 10px;
+  }
+  .patient-signup-title {
+    font-size: 42.0142px;
+  }
+  .patient-signup-subtitle {
+    font-size: 21.0142px;
+  }
+  .patient-signup-bg-img-row {
+    display: flex;
+    justify-content: flex-end;
+    height: 120vh;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .patient-signup-input-title {
+    font-size: 10px;
+  }
+  .patient-signup-title {
+    font-size: 38.0142px;
+  }
+  .patient-signup-subtitle {
+    font-size: 18.0142px;
+  }
+  .patient-signup-bg-img-row {
+    display: flex;
+    justify-content: flex-end;
+    height: 90vh;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .patient-signup-bg-img-row {
+    height: 70vh;
+  }
+  .patient-signup-input {
+    width: 398px;
+  }
+  .patient-signup-phone .ant-input-wrapper {
+    width: 398px;
+  }
+  .patient-signup-bloodgrp-select {
+    width: 398px !important;
+    border: 1px solid #959595;
+    background: #ffffff;
+    border-radius: 3px;
+  }
+  .patient-sigup-input-bgcolor-row {
+    height: 100px;
+    width: 480px;
+  }
+  .patient-signup-main-div .ant-form-item-explain-error {
+    width: 398px;
+    word-wrap: break-word;
+  }
+  .patient-signup-subtitle {
+    font-size: 15.0142px;
+  }
+  .patient-signup-main-div .password-row {
+    width: 480px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .patient-signup-bg-img-row {
+    height: 60vh;
+  }
+}
+@media screen and (max-width: 700px) {
+  .patient-signup-bg-img-row {
+    height: 50vh;
+  }
+  .patient-signup-input-row {
+    margin: 0 0 0 40px;
+  }
+  .patient-sigup-input-bgcolor-row .patient-signup-input-row {
+    margin: 0 0 0 0px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .patient-signup-input-row {
+    margin: 0 0 0 0;
+  }
+  .patient-signup-title {
+    font-size: 33.0142px;
+    line-height: 42px;
+  }
+  .patient-signup-subtitle {
+    font-size: 17.0142px;
+    line-height: 22px;
+    color: #505050;
+  }
+  .patient-signup-input-row {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-top: -15px;
+  }
+  .patient-signup-input {
+    background: #ffffff;
+    border: 1px solid #959595;
+    border-radius: 3px;
+    width: 80vw;
+    height: 40px;
+  }
+  .patient-signup-phone .ant-input-wrapper {
+    width: 80vw;
+  }
+  .patient-signup-main-div .ant-form-item-explain-error {
+    width: 80vw;
+    word-wrap: break-word;
+  }
+  .patient-sigup-input-bgcolor-row {
+    height: 100px;
+    width: 100vw;
+  }
+  .patient-signup-register-btn-row {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  .patient-signup-copyright-row {
+    height: 40px;
+    margin: 50px 0 0 0;
+  }
+  .patient-signup-copyright {
+    padding: 0 15px;
+    font-size: 10px;
+    border-bottom: 4px solid #2ca3fa;
+  }
+  .patient-signup-bg-img-row {
+    height: 33vh;
+  }
+  .patient-signup-bloodgrp-select {
+    width: 80vw !important;
+    border: 1px solid #959595;
+    background: #ffffff;
+    border-radius: 3px;
+  }
+  .patient-signup-main-div .input-rows-main-col {
+    align-items: start;
+  }
+  .patient-signup-main-div .password-row {
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 300px) {
+  .patient-signup-bg-img-row {
+    height: 23vh;
+  }
+}

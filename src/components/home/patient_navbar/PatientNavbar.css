@@ -1,0 +1,99 @@
+.navbar-main-div {
+  font-family: "Roboto";
+  width: 100vw;
+}
+.navbar-main-div .user-name {
+  font-weight: 600;
+  font-size: 0.833vw;
+  line-height: 19px;
+  color: #505050;
+  margin: 0 0 5px 0;
+}
+.my-account-text-tag {
+  font-size: 18px;
+  font-weight: 700;
+}
+.navbar-main-div .add-xray-btn {
+  width: 6.92vw;
+  height: 2.9vh;
+  background: #ffffff;
+  border: 1px solid #009df7;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #2ca3fa;
+  margin: 2.9vh 0 0 0;
+}
+.navbar-main-div .ml-analysis-tab {
+  font-weight: 700;
+  font-size: 18px;
+  color: #525252;
+}
+.navbar-main-div .view-all-tab {
+  color: #2ca3fa;
+  cursor: pointer;
+}
+.navbar-main-div .xray-details-heading {
+  font-weight: 600;
+  font-size: 14px;
+  color: #a8a8a8;
+}
+.navbar-main-div .xray-timestamp {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #7d7d7d;
+  width: 6vw;
+}
+.navbar-main-div .clinic-name {
+  font-weight: 600;
+  font-size: 0.8333333333333334vw;
+  color: #525252;
+}
+.navbar-main-div .view-analysis-btn {
+  background: #ffffff;
+  border: 1px solid #009df7;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #2ca3fa;
+}
+.navbar-main-div .ant-tabs-tab {
+  margin: 0 3vw 0 0;
+  height: 7.487179487179487vh;
+}
+.navbar-main-div .ant-tabs-tab + .ant-tabs-tab {
+  margin: 0 3vw 0 0;
+}
+.navbar-main-div .ant-tabs-top > .ant-tabs-nav {
+  margin: 0;
+}
+.navbar-main-div .ant-tabs-top > .ant-tabs-nav .ant-tabs-ink-bar {
+  height: 0.5128205128205128vh;
+}
+.navbar-main-div .ant-tabs-nav-list {
+  border-bottom: 0.1px solid white;
+}
+.download-docs-modal .docs-div {
+  width: 396px;
+  height: 39px;
+  background: #f9f9f9;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin: 0 0 4px 0;
+  padding: 0 0 0 13px;
+}
+.navbar-main-div .ant-tabs-tab-btn {
+  font-weight: 400;
+  /* font-size: 0.8333333333333334vw; */
+}
+.navbar-main-div .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  font-weight: 700;
+  /* font-size: 0.8333333333333334vw; */
+}
+@media screen and (max-width: 1050px) {
+  .navbar-main-div .user-name {
+    display: none;
+  }
+}

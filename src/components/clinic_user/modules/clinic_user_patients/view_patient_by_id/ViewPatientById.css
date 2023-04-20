@@ -1,0 +1,20 @@
+.view-patient-by-id-main-div {
+  width: 100vw;
+  height: 92.55vh;
+  overflow-y: scroll;
+}
+.search-patient-by-id {
+  background: #e0f2ff;
+  border: 1px solid #009df7;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2ca3fa;
+}
+.clinic-user-mlanalysis-main-div {
+  width: 71.81vw;
+  height: 56.61538461538461vh;
+  background-color: #fff;
+  border-radius: 5px;
+}

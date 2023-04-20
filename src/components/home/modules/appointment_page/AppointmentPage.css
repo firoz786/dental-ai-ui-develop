@@ -1,0 +1,225 @@
+.appointment-page-main-div {
+  width: 100vw;
+  height: 92.55vh;
+  background: #f3f4f5;
+  overflow-x: hidden;
+}
+.appointment-page-main-div .create-appointment-btn {
+  width: 185px;
+  height: 30px;
+  background: #ecfeff;
+  border: 1px solid #29c3c1;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #29c3c1;
+}
+.appointment-page-main-div .locate-btn {
+  width: 133px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #3cc9d2;
+  background: #ffffff;
+  border: 1px solid #3cc9d2;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.appointment-page-main-div .reschedule-btn {
+  width: 102px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #17a1fa;
+  background: #ffffff;
+  border: 1px solid #17a1fa;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.appointment-page-main-div .cancel-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 83px;
+  height: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #f7927e;
+  background: #fff6f2;
+  border: 1px solid #f7927e;
+  border-radius: 30px;
+}
+.appointment-page-main-div .accept-btn {
+  width: 85px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #1a63d1;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #1a63d1;
+}
+.appointment-page-main-div .address {
+  font-weight: 400;
+  width: 333px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7d7d7d;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.appointment-page-main-div .clinic-name {
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0 0 4px 0;
+  text-decoration-line: underline;
+  color: #2ca3fa;
+  cursor: pointer;
+}
+.clinic-id {
+  font-weight: 600;
+  font-size: 14px;
+  color: #7d7d7d;
+}
+.appointment-page-main-div .appointment-status-row {
+  background: #fbfbfb;
+  border-radius: 5px;
+  margin: 0 0 5px 0;
+  display: flex;
+  align-items: center;
+  padding: 20px 0 20px 23px;
+}
+.appointment-page-main-div .appointment-status-row-clinic {
+  background: #f2faff;
+  border-radius: 5px;
+  margin: 0 0 5px 0;
+  display: flex;
+  align-items: center;
+  padding: 20px 0 20px 23px;
+}
+.appointment-page-main-div .appointment-date-heading {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #a8a8a8;
+}
+.appointment-page-main-div .appointment-date {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #7d7d7d;
+}
+.appointment-scheduler-modal .ant-picker-input {
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
+  padding: 0 0 0 9px;
+  width: 243px;
+  height: 36px;
+}
+.appointment-scheduler-modal .ant-picker-suffix {
+  display: none;
+}
+.appointment-scheduler-modal .ant-modal-body {
+  padding: 35px 31px;
+}
+.appointment-scheduler-modal .ant-picker {
+  padding: 0;
+}
+.appointment-scheduler-modal .values-priting-inner-row {
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
+  width: 517px;
+  min-height: 53px;
+  display: flex;
+  align-items: center;
+  padding: 0 17px;
+}
+.appointment-scheduler-modal .values-priting-outer-row {
+  background: #f1f1f1;
+  border-radius: 3px;
+  width: 586px;
+  min-height: 86px;
+  margin: 25px 0;
+}
+.appointment-scheduler-modal .datepicker {
+  border: 1px solid #ebe6e6;
+  border-radius: 5px;
+  width: 288px;
+  height: 323px;
+}
+.appointment-scheduler-modal .create-appointment-details {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border: 1px solid #ebe6e6;
+  border-radius: 5px;
+  width: 288px;
+  height: 323px;
+  align-items: center;
+}
+.reschedule-appointment-details {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border: 1px solid #ebe6e6;
+  border-radius: 5px;
+  width: 288px;
+  height: 323px;
+  align-items: center;
+}
+.appointment-scheduler-modal .ant-form-item-explain-error {
+  font-size: 12px;
+  margin-bottom: -12px;
+}
+@media screen and (max-width: 1050px) {
+  .appointment-page-main-div .locate-btn {
+    width: 58px;
+  }
+  .appointment-page-main-div .reschedule-btn {
+    width: 58px;
+  }
+  .appointment-page-main-div .cancel-btn {
+    width: 58px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .appointment-scheduler-modal .datepicker {
+    border: 1px solid #ebe6e6;
+    border-radius: 5px;
+    width: 100%;
+    height: 323px;
+  }
+  .appointment-scheduler-modal .create-appointment-details {
+    width: 100%;
+  }
+  .reschedule-appointment-details {
+    width: 100%;
+  }
+  .appointment-scheduler-modal .values-priting-outer-row {
+    width: 100%;
+  }
+  .appointment-scheduler-modal .values-priting-inner-row {
+    width: 100%;
+    margin: 0 35px;
+  }
+  .appointment-scheduler-modal .ant-modal-body {
+    padding: 35px 31px;
+  }
+  .appointment-page-main-div .appointment-heading-row {
+    display: none;
+  }
+  .appointment-page-main-div .appointment-status-row {
+    min-height: 300px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .appointment-scheduler-modal .ant-modal-body {
+    padding: 20px;
+  }
+}

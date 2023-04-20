@@ -1,0 +1,85 @@
+.patient-notification-main-div {
+  height: 92.55vh;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+.patient-notification-main-div
+  .ant-collapse
+  > .ant-collapse-item
+  > .ant-collapse-header {
+  min-height: 79px;
+  display: flex;
+  align-items: center;
+  padding: 0px 16px;
+}
+.patient-notification-main-div .read-notif-btn {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  background: #ffffff;
+  border: 1px solid #009df7;
+  border-radius: 30px;
+  color: #2ca3fa;
+  cursor: pointer;
+}
+.patient-notification-main-div
+  .ant-collapse-ghost
+  > .ant-collapse-item
+  > .ant-collapse-content
+  > .ant-collapse-content-box {
+  padding-top: 0;
+}
+.patient-notification-main-div .notifications-main-row {
+  margin: 0 23px;
+  background: #fff;
+  border-radius: 5px;
+  max-height: 82vh;
+  padding: 18px;
+  overflow-y: scroll;
+}
+.notification-msg {
+  font-weight: 400;
+  font-size: 16px;
+  color: #7d7d7d;
+}
+.notification-msg-row {
+  margin: -15px 0 15px 0;
+}
+.notification-created-at {
+  width: 76px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #7d7d7d;
+}
+.notification-title {
+  font-weight: 600;
+  font-size: 16px;
+  color: #525252;
+}
+@media screen and (max-width: 576px) {
+  .notification-title {
+    margin: 10px 0 0 0;
+  }
+  .notification-created-at {
+    width: 100%;
+    font-weight: 400;
+    font-size: 12px;
+    color: #7d7d7d;
+  }
+  .patient-notification-main-div
+    .ant-collapse
+    > .ant-collapse-item
+    > .ant-collapse-header {
+    padding: 30px 10px;
+  }
+  .notification-msg-row {
+    margin: -25px 0 25px 0;
+  }
+  .patient-notification-main-div
+    .ant-collapse-ghost
+    > .ant-collapse-item
+    > .ant-collapse-content
+    > .ant-collapse-content-box {
+    padding: 0 10px;
+  }
+}

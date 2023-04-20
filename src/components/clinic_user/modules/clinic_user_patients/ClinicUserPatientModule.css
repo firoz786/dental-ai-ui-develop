@@ -1,0 +1,39 @@
+.clinic-user-patients-main-div {
+  width: 100vw;
+  min-height: 92.55vh;
+}
+.clinic-user-patients-main-div .patients-data-heading {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #a8a8a8;
+}
+.clinic-user-patients-main-div .patients-data-date {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #7d7d7d;
+}
+.clinic-user-patients-main-div .patients-data-email {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #7d7d7d;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.clinic-user-patients-main-div .patients-data-phone {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #7d7d7d;
+}
+.clinic-user-patients-main-div .patients-data-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #7d7d7d;
+}
