@@ -16,5 +16,3 @@ phases:
 artifacts:
   files:
     - "**/*" # Include all files in the build artifact
-  discard-paths:
-    - "node_modules/**/*" # Exclude the node_modules folder from the build artifact
